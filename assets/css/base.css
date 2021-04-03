@@ -21,6 +21,9 @@ html {
 .app {
     overflow: hidden;
 }
+.ps-rlt {
+    position: relative !important;
+}
 /* Button */
 
 .btn {
