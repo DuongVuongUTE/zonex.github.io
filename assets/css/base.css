@@ -65,11 +65,11 @@ html {
 /* Animation */
 @keyframes FadeIn {
     from {
-        transform: scale(0);
+        transform: translateY(10px);
         opacity: 0;
     }
     to {
-        transform: scale(1);
+        transform: translateY(0);
         opacity: 1;
     }
 }
