@@ -1190,6 +1190,7 @@ footer {
 }
 .footer-contact button {
   font-size: 13px;
+  cursor: pointer;
   color: #151515;
   height: 48px;
   line-height: 48px;
