@@ -320,6 +320,9 @@
 .header-right__item:hover .search-container::before {
   border-width: 9px;
 }
+.search-container {
+  padding: 15px 0 15px 0;
+}
 .shop-bag,
 .search-container {
   border-top: 3px solid rgba(21, 21, 21, 0.7);
@@ -336,6 +339,9 @@
   transition: all linear 0.3s;
   background-color: var(--white-color);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.search-container {
+  padding: 15px 0 15px 0;
 }
 .shop-bag::before,
 .search-container::before {
