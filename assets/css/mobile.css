@@ -102,6 +102,24 @@
       display: none;
       margin-bottom: 20px;
   }
+  .header-nav__sublistfull {
+    margin: 15px 0;
+  }
+  .subtiem__title {
+    font-size: 18px;
+  }
+  .subitem__item {
+    margin-bottom: 10px;
+  }
+  .subitem-img-des {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+  .subitem__link {
+    display: inline-block;
+    font-size: 16px;
+    padding: 8px 0;
+  }
   .header-nav__subitem {
     margin: 10px 0;
   }
