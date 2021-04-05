@@ -192,6 +192,12 @@
   .instagram-wrap-item {
     width: calc(100% / 2);
   }
+  .shop-bag, .search-container {
+    width: 100%;
+  }
+  .search-container input {
+    width: unset;
+  }
 }
 @media (max-width: 350px) {
   .header-logo-img {
