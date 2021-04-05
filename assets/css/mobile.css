@@ -83,7 +83,7 @@
     
 }
   .header-nav__link {
-      font-size: 18px;
+      font-size: 20px;
   }
   .header-nav__subitemfull--col60 {
     width: 100%;
@@ -102,8 +102,20 @@
       display: none;
       margin-bottom: 20px;
   }
+  .header-nav__subitem {
+    margin: 10px 0;
+  }
+  .header-nav__item:hover .header-nav__link::after {
+    width: 100%;
+    transition: all 0.3s linear;
+  }
+  .header-nav__sublink {
+    padding: 5px 0;
+    font-size: 18px;
+  }
   .header-nav__item {
       position: relative;
+      margin-bottom: 10px;
   }
   .header-nav__item:hover > .header-nav__sublist , .header-nav__item:hover > .header-nav__sublistfull {
       display: block;
